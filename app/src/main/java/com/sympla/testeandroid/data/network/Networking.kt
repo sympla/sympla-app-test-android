@@ -27,8 +27,4 @@ object Networking {
         .client(client)
         .addConverterFactory(GsonConverterFactory.create())
         .build()
-
-    val symplaApiService: SymplaApiService by lazy {
-        retrofit.create(SymplaApiService::class.java)
-    }
 }

@@ -18,72 +18,72 @@ data class EventDTO(
     val id: String,
 
     @SerializedName("reference_id")
-    val referenceId: Int?,
+    val referenceId: Int,
 
     @SerializedName("start_date")
-    val startDate: String?,
+    val startDate: String,
 
     @SerializedName("end_date")
-    val endDate: String?,
+    val endDate: String,
 
     @SerializedName("name")
     val name: String,
 
     @SerializedName("detail")
-    val detail: String?,
+    val detail: String,
 
     @SerializedName("private_event")
-    val privateEvent: Int?,
+    val privateEvent: Int,
 
     @SerializedName("published")
-    val published: Int?,
+    val published: Int,
 
     @SerializedName("cancelled")
-    val cancelled: Int?,
+    val cancelled: Int,
 
     @SerializedName("image")
-    val image: String?,
+    val image: String,
 
     @SerializedName("url")
-    val url: String?,
+    val url: String,
 
     @SerializedName("address")
-    val address: AddressDTO?,
+    val address: AddressDTO,
 
     @SerializedName("host")
-    val host: HostDTO?,
+    val host: HostDTO,
 
     @SerializedName("category_prim")
-    val categoryPrim: CategoryDTO?,
+    val categoryPrim: CategoryDTO,
 
     @SerializedName("category_sec")
-    val categorySec: CategoryDTO?
+    val categorySec: CategoryDTO
 )
 
 data class AddressDTO(
     @SerializedName("name")
-    val name: String?,
+    val name: String,
 
     @SerializedName("address")
-    val address: String?,
+    val address: String,
 
     @SerializedName("address_num")
-    val addressNum: String?,
+    val addressNum: String,
 
     @SerializedName("city")
-    val city: String?,
+    val city: String,
 
     @SerializedName("state")
-    val state: String?,
+    val state: String,
 
     @SerializedName("country")
-    val country: String?,
+    val country: String,
 
     @SerializedName("lat")
-    val lat: Double?,
+    val lat: Double,
 
     @SerializedName("lon")
-    val lon: Double?
+    val lon: Double
 )
 
 data class HostDTO(
