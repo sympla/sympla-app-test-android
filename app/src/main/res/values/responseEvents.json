@@ -1,0 +1,82 @@
+{
+    "data": [
+        {
+            "id": "s247e45",
+            "reference_id": 2391621,
+            "start_date": "2024-03-21T19:00:00-03:00",
+            "end_date": "2024-03-30T18:00:00-03:00",
+            "name": "Sympla - CheckIn",
+            "detail": "",
+            "private_event": 1,
+            "published": 1,
+            "cancelled": 0,
+            "image": "https://images.sympla.com.br/65fca06428b81.jpg",
+            "url": "https://www.sympla.com.br/evento/sympla-lumx-checkin/2391621",
+            "address": {
+                "name": "Sympla",
+                "address": "Rua Fernandes Tourinho",
+                "address_num": "147",
+                "city": "Belo Horizonte",
+                "state": "MG",
+                "country": "BRASIL",
+                "lat": -19.9394051,
+                "lon": -43.9362339
+            },
+            "host": {
+                "name": "Sympla"
+            },
+            "category_prim": {
+                "name": "outro"
+            },
+            "category_sec": {
+                "name": ""
+            }
+        },
+        {
+            "id": "s2491b0",
+            "reference_id": 2396592,
+            "start_date": "2024-03-26T19:50:00-03:00",
+            "end_date": "2024-03-28T17:30:00-03:00",
+            "name": "[teste] SymplaX Design Check-in",
+            "detail": "",
+            "private_event": 0,
+            "published": 1,
+            "cancelled": 0,
+            "image": "https://images.sympla.com.br/5f282a0c6a2d9.png",
+            "url": "https://www.sympla.com.br/evento/teste-symplax-design-check-in/2396592",
+            "address": {
+                "name": "Vila Germ\u00e2nica",
+                "address": "Rua Alberto Stein",
+                "address_num": "199",
+                "neighborhood": "Velha",
+                "city": "Blumenau",
+                "state": "SC",
+                "zip_code": "89036-200",
+                "country": "BRASIL",
+                "lat": -26.9155433,
+                "lon": -49.0846725
+            },
+            "host": {
+                "name": "Sympla"
+            },
+            "category_prim": {
+                "name": "musica"
+            },
+            "category_sec": {
+                "name": "outro"
+            }
+        }
+    ],
+    "pagination": {
+        "has_next": false,
+        "has_prev": false,
+        "quantity": 10,
+        "offset": 0,
+        "page": 1,
+        "page_size": 100
+    },
+    "sort": {
+        "field_sort": "start_date",
+        "sort": "asc"
+    }
+}
